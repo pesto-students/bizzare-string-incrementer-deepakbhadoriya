@@ -1,4 +1,3 @@
-// import { bizarreStringIncrementer } from "./bizarreStringIncrementer.js";
 const bizarreStringIncrementer = require("./bizarreStringIncrementer");
 
 describe("bizarreStringIncrementer", () => {

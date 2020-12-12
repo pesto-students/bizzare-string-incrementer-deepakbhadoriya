@@ -2,7 +2,7 @@
 
 const secondString = (string) => {
   //checking if we received valid string
-  if (typeof string === "string") {
+  if (string.length > 0) {
     // converting string to number, incrementing 1 and converting back to string
     let newString = (parseInt(string) + 1).toString();
     // counting difference in length of string before adding 1 and after that
